@@ -1,0 +1,9 @@
+{
+    "require": {
+        "sergeytsalkov/meekrodb": "^3.1",
+        "bramus/router": "~1.6"
+    },
+    "autoload":{
+        "psr-4": {"App\\": "app/"}
+    }
+}

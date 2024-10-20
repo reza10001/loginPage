@@ -18,10 +18,14 @@
         <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M9.283 4.002V12H7.971V5.338h-.065L6.072 6.656V5.385l1.899-1.383z"/>
       </svg>
       <h1 class="h3 mt-3">عضویت</h1>
-      <form class="" action="/register" method="post">
+      <form class="" action="/register" method="post" enctype="multipart/form-data">
         <div class="form-group">
           <label for="username"></label>
           <input type="text" class="form-control my-rounded" id="username" name="username" placeholder="نام کاربری">
+        </div>
+        <div class="form-group">
+          <label for="avatar"></label>
+          <input type="file" class="form-control my-rounded" id="avatar" name="avatar" placeholder="" >
         </div>
         <div class="form-group">
           <label for="password"></label>
